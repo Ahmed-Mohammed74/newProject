@@ -1,0 +1,30 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: linear-gradient(120deg, #e0e7ff 0%, #fff 100%);
+  text-align: center;
+  padding: 60px 20px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  color: #222;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 32px;
+  color: #555;
+}
+
+
+
+.hero-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px 0;
+}
